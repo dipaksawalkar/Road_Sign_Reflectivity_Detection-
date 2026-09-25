@@ -440,15 +440,43 @@ The API/web application can then be accessed through the local address displayed
 
 ## 🧪 Example Predictions
 
-The trained YOLOv8 model detects road signs and classifies their condition as Good, Moderate, or Bad.
+The trained YOLOv8 model detects road signs and classifies their condition based on their visual characteristics.
 
-### Prediction Results
+### 🟢 Good Sign Detection
 
-![YOLOv8 Prediction Results](docs/images/val_batch0_pred.jpg)
-Detected Class : Moderate
-Confidence     : 0.87
-Condition Score: 6.5 / 10
+<p align="center">
+  <img src="docs/images/sign_good_detection.png" width="700">
+</p>
 
+The model successfully detects a road sign classified as **Good**.
+
+---
+
+### 🔴 Bad Sign Detection
+
+<p align="center">
+  <img src="docs/images/bad_sign.png" width="700">
+</p>
+
+The model detects a road sign classified as **Bad**.
+
+---
+
+## 📊 Condition Score
+
+The application also provides a simplified **0–10 condition score** based primarily on the predicted class and model confidence.
+
+### 🟢 Good Sign — Score
+
+<p align="center">
+  <img src="docs/images/good_sign_score.png" width="700">
+</p>
+
+### 🔴 Bad Sign — Score
+
+<p align="center">
+  <img src="docs/images/bad_sign_score.png" width="700">
+</p>
 
 The actual output depends on the trained model prediction and image characteristics.
 
