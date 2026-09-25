@@ -169,8 +169,7 @@ The dataset contains road-sign images captured under different lighting conditio
 ### Dataset Source
 
 The Indian Traffic Sign Image Dataset used as a source/reference can be found here:
-
-[https://github.com/datacluster-labs/Indian-Traffic-Sign-Image-Dataset](https://universe.roboflow.com/dipak-sawalkar-s-workspace/reflectivity_score)
+https://universe.roboflow.com/dipak-sawalkar-s-workspace/reflectivity_score
 
 > Dataset files are not included directly in this repository because of their size. Please refer to the dataset source and project instructions for obtaining the data.
 
