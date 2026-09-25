@@ -170,7 +170,7 @@ The dataset contains road-sign images captured under different lighting conditio
 
 The Indian Traffic Sign Image Dataset used as a source/reference can be found here:
 
-https://github.com/datacluster-labs/Indian-Traffic-Sign-Image-Dataset
+[https://github.com/datacluster-labs/Indian-Traffic-Sign-Image-Dataset](https://universe.roboflow.com/dipak-sawalkar-s-workspace/reflectivity_score)
 
 > Dataset files are not included directly in this repository because of their size. Please refer to the dataset source and project instructions for obtaining the data.
 
@@ -445,7 +445,7 @@ The trained YOLOv8 model detects road signs and classifies their condition based
 ### 🟢 Good Sign Detection
 
 <p align="center">
-  <img src="docs/images/sign_good_detection.png" width="700">
+  <img src="docs/images/good_sign.png" width="700">
 </p>
 
 The model successfully detects a road sign classified as **Good**.
